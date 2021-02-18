@@ -12,10 +12,13 @@ node test.js
 # check permission
 ll hello.sh
 # -rwxr-x---
-ll unzippedFolder/hello.sh 
-# -rw-rw-rw-
 
 # unzip manually
 unzip a.zip
+
+# check permission of the unzipped file
+ll unzippedFolder/hello.sh 
 # -rw-rw-rw-
+
+
 ```
