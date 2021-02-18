@@ -6,7 +6,7 @@ To reproduce
 # install dependency
 npm i
 
-# zip hello.sh and unzip to a folder
+# zip hello.sh
 node test.js
 
 # check permission
