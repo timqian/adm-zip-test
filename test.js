@@ -11,5 +11,3 @@ zip.addFile('./unzippedFolder/hello.sh', fileContent, null, fileStat.mode);
 
 fs.writeFileSync('./a.zip', zip.toBuffer());
 // zip.writeZip('./a.zip')
-
-zip.extractAllTo('./')
